@@ -1,2 +1,2 @@
-# Fashion-Blog-Final-Project-
-Sydney's website creation project.
+# FashionBlog-FinalProject
+Sydney McLaughlin's website creation project.
