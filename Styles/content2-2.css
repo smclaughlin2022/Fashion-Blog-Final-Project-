@@ -1,0 +1,54 @@
+table,
+      td,
+      th {
+        border: 2px gray solid;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      th,
+      td {
+        border: 1px solid light gray;
+        
+      }
+      
+      #push {
+        background-color: white;
+        width: 15%;
+      }
+      #pull {
+        background-color: white;
+        width: 30%;
+      }
+      #right {
+        background-color: white;
+        width: 30%;
+       }
+
+       #side{
+           width: 10%;
+       }
+
+      #left {
+        background-color: white;
+        width: 10%;
+      }
+      #button3{
+          background: linear-gradient(#51a9ee,#147bcd);
+          
+      }
+      #button2{
+        background: linear-gradient(#51a9ee,#147bcd);
+        
+    }
+    #button1{
+        background: linear-gradient(#51a9ee,#147bcd);
+        
+    }
+
+    #img1{
+        width: 30%;
+    }
+    #img2{
+        width: 30%;
+    }

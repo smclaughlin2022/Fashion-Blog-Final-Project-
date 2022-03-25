@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name = "description" content = "All Fashion Tags">
+    <meta name = "keywords" content = "babson, project, school, fashion, environment, sustainability, climate change,
+    information, style, greenwashing,">
+    <link rel = "icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+      form {
+        background-color: bisque;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      h1 {
+        text-align: left;
+      }
+      ul{
+        list-style: none;
+        margin: 0;
+        padding-left: 300px;
+        overflow: hidden;
+        background-color: lightblue;
+    }
+    li{
+        float: left;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        color: white;
+        font-size: 20px;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        border-bottom: 3px solid rgb(0, 34, 128);
+    }
+    </style>
+  </head>
+  <body>
+    <ul >
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="contact.html">Contact</a></li>
+        <li><a  href="subscribe.html">Subscribe</a></li>
+        <li><a  href="content1.html">About Me</a></li>
+        <li><a  href="content2.html">Fashion Glossary</a></li>
+        <li><a  href="content3.html">Company Feature</a></li>
+        <li><a  href="sitemap.html">Site Map</a></li>
+
+    </ul>
+    <h1>Subscribe!</h1>
+    <form action="https://oim-apis.herokuapp.com/form2" method="post">
+      <div>
+        <label for="First Name">First Name:</label>
+        <input
+          type="text"
+          id="First Name"
+          name="First Name"
+          maxlength="100"
+          placeholder="First name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Last Name">Last Name:</label>
+        <input
+          type="text"
+          id="Last Name"
+          name="Last Name"
+          maxlength="100"
+          placeholder="Last name"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="Phone">Phone Number:</label>
+        <input
+          type="text"
+          id="Phone"
+          name="Phone"
+          maxlength="100"
+          placeholder="Phone Number"
+        />
+      </div>
+      <br>
+      <div>
+        <label for="Email Address">Email Address:</label>
+        <input
+          type="text"
+          id="Email"
+          name="Email"
+          maxlength="100"
+          placeholder="Email Address"
+        />
+      </div>
+<br>
+      <div>
+        Subscribe:
+        <label>Yes please!<input type="radio" name="Yes" value="Yes" /> </label>
+        <label
+          >No thanks!<input type="radio" name="No" value="No" />
+        </label>
+      </div>
+      <br />
+      <div>
+        <label for="comments">Leave a Comment:</label>
+      </div>
+      <div>
+        <textarea
+          id="comments"
+          name="comments"
+          rows="5"
+          cols="25"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </div>
+
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
