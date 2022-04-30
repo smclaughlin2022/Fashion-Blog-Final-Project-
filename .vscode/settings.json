@@ -7,5 +7,6 @@
         "Sherborn",
         "thrifting",
         "upscaling"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

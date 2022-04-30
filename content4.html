@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="All Fashion Tags" />
+    <meta
+      name="keywords"
+      content="babson, project, school, fashion, environment, sustainability, climate change,
+    information, style, greenwashing,"
+    />
+    <title>Alternative Options to Fast Fashion</title>
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon" />
+    <style>
+      ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 200px;
+        overflow: hidden;
+        background-color: lightblue;
+      }
+      li {
+        float: left;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        color: white;
+        font-size: 20px;
+      }
+      li a {
+        display: block;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        border-bottom: 3px solid rgb(0, 34, 128);
+        
+        
+      }
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        text-align: cent;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="content3.html">Company Feature</a></li>
+      <li><a href="content2.html">Fashion Glossary</a></li>
+      <li><a href="content4.html">Alternatives</a></li>
+      <li><a href="content1.html">About Me</a></li>
+      <li><a href="subscribe.html">Feedback Form</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="sitemap.html">Site Map</a></li>
+    </ul>
+    <h1 id="center">Alternatives Brands to Amazon:</h1>
+
+    <div class="center">
+      <img
+        alt="Image Goes Here"
+        src="images/sustainshopping.jpg"
+        title="Player's Name"
+        id="sustain"
+      />
+    </div>
+    
+    <div class="center">
+      <button id="b1">Thrive Market</button>
+      <button id="b2">Made Trade</button>
+      <button id="b3">Grove Collab</button>
+      <button id="b4">Credo</button>
+    </div>
+
+    <script>
+      function Al() {
+        document.querySelector("h1").innerText = "Option 1: Thrive market";
+        document.querySelector("h1").style.textAlign = "center";
+        document.querySelector("img").src = "images/thrive.png";
+
+        document.getElementById("b1").style.background = "silver";
+        document.getElementById("b2").style.background = "white";
+        document.getElementById("b3").style.background = "white";
+        document.getElementById("b4").style.background = "white";
+        document.querySelector("img").style.borderColor = "yellow";
+      }
+      document.getElementById("b1").onclick = function () {
+        Al();
+      };
+      function Jayl() {
+        document.querySelector("h1").innerText = "Option 2: Made Trade";
+        document.querySelector("h1").style.textAlign = "center";
+        document.querySelector("img").src = "images/madetrade.png";
+
+        document.getElementById("b1").style.background = "silver";
+        document.getElementById("b2").style.background = "silver";
+        document.getElementById("b3").style.background = "white";
+        document.getElementById("b4").style.background = "white";
+        document.querySelector("img").style.borderColor = "blue";
+      }
+      document.getElementById("b2").onclick = function () {
+        Jayl();
+      };
+
+      function Jays() {
+        document.querySelector("h1").innerText = "Option 3: Grove";
+        document.querySelector("h1").style.textAlign = "center";
+        document.querySelector("img").src = "images/grove.png";
+
+        document.getElementById("b1").style.background = "silver";
+        document.getElementById("b2").style.background = "silver";
+        document.getElementById("b3").style.background = "silver";
+        document.getElementById("b4").style.background = "white";
+        document.querySelector("img").style.borderColor = "red";
+      }
+      document.getElementById("b3").onclick = function () {
+        Jays();
+      };
+
+      function Pay() {
+        document.querySelector("h1").innerText = "Option 4: Credo";
+        document.querySelector("h1").style.textAlign = "center";
+        document.querySelector("img").src = "images/credo.jpg";
+
+        document.getElementById("b1").style.background = "silver";
+        document.getElementById("b2").style.background = "silver";
+        document.getElementById("b3").style.background = "silver";
+        document.getElementById("b4").style.background = "silver";
+        document.querySelector("img").style.borderColor = "purple";
+      }
+      document.getElementById("b4").onclick = function () {
+        Pay();
+      };
+
+      function makeBig() {
+        document.querySelector("img").style.width = "120%";
+        document.querySelector("img").style.height = "120%";
+      }
+      function makeSmall() {
+        document.querySelector("img").style.width = "60%";
+        document.querySelector("img").style.height = "60%";
+      }
+
+      document.querySelector("img").onmouseover = function () {
+        makeBig();
+      };
+      document.querySelector("img").onmouseout = function () {
+        makeSmall();
+      };
+    </script>
+
+    <p></p>
+  </body>
+</html>

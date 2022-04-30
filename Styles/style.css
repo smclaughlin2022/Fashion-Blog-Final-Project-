@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+img#demo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sustain {
+    border: 5px solid navy;
+    margin-bottom: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+button {
+    margin-right: 20px;
+    background-color: lightblue;
+    height: 50px;
+    width: 120px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.cards img {
+    margin: 15px 20px 0;
+}
+
+.result {
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
